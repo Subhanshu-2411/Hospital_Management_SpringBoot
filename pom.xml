@@ -15,12 +15,11 @@
     <name>Hospital_Management</name>
     <description>Hospital_Management</description>
     <modules>
-        <module>Domain</module>
         <module>domain</module>
-        <module>service</module>
-        <module>repository</module>
-        <module>controller</module>
         <module>email</module>
+        <module>repository</module>
+        <module>service</module>
+        <module>web</module>
     </modules>
     <properties>
         <java.version>20</java.version>
