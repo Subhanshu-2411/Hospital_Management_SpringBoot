@@ -11,8 +11,17 @@
     <groupId>com.example</groupId>
     <artifactId>Hospital_Management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>Hospital_Management</name>
     <description>Hospital_Management</description>
+    <modules>
+        <module>Domain</module>
+        <module>domain</module>
+        <module>service</module>
+        <module>repository</module>
+        <module>controller</module>
+        <module>email</module>
+    </modules>
     <properties>
         <java.version>20</java.version>
     </properties>
